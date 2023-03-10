@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family:'lato';
+    background-color: grey
+}
+.notifications{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 15vh;
+    background-color: #ffffff8b;
+}
+.notifications #btn1{
+    cursor: pointer;
+    background-color: green;
+    padding: 10px;
+    margin-right: 10px;
+    color: #fff;
+    box-shadow: 2px 2px #000;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.notifications #btn2{
+    cursor: pointer;
+    background-color: rgb(239, 239, 44);
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+    box-shadow: 2px 2px #000;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.notifications #btn3{
+    cursor: pointer;
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+    box-shadow: 2px 2px #000;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.notifications #btn4{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.683);
+    padding: 10px;
+    margin-right: 10px;
+    color: #fff;
+    box-shadow: 2px 2px #000;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.afficher{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+    width: 40%;
+    width: 50vh;
+}

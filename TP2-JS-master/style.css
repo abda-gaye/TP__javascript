@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 10px;
+}
+
+.container > div {
+    width: 33%;
+    height: 100%;
+    background-color: #FFF;
+    padding: 2rem 4rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    padding: 0.5rem 1rem;
+}
+
+p.active {
+    background-color: blue;
+    color: #FFF;
+}
+
+.container .middlePart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.container .middlePart button {
+    padding: 1rem;
+    width: 30%;
+    margin-bottom: 10px;
+}
